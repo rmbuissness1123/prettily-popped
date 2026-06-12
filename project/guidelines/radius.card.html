@@ -1,0 +1,24 @@
+<!-- @dsCard group="Spacing" viewport="700x160" name="Radius — Balloon-soft" subtitle="Generous rounding; pill shapes echo balloons" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 22px 26px; background: var(--surface-card);
+         display: flex; align-items: center; gap: 18px; }
+  .b { background: var(--rose-100); border: 1.5px solid var(--rose-300);
+       width: 80px; height: 80px; display: flex; align-items: flex-end; justify-content: center;
+       padding-bottom: 8px; }
+  .b span { font-size: 10px; font-weight: 700; color: var(--berry-600); }
+  .pill { width: 120px; border-radius: var(--radius-pill); }
+</style>
+</head>
+<body>
+  <div class="b" style="border-radius:var(--radius-sm)"><span>sm · 10</span></div>
+  <div class="b" style="border-radius:var(--radius-md)"><span>md · 16</span></div>
+  <div class="b" style="border-radius:var(--radius-lg)"><span>lg · 24</span></div>
+  <div class="b" style="border-radius:var(--radius-xl)"><span>xl · 32</span></div>
+  <div class="b pill"><span>pill · 999</span></div>
+</body>
+</html>

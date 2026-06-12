@@ -1,0 +1,11 @@
+/* ============================================================
+   Prettily Popped — Fonts
+   NOTE: Prettily Popped has no licensed brand typeface (the live
+   site uses a generic Webador template). These are tasteful
+   Google Fonts substitutions chosen to match the brand spirit —
+   an elegant high-contrast display serif, a warm friendly sans,
+   and a script for signature/wordmark moments.
+   >> Flagged to the client: swap for licensed brand fonts if any.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Hanken+Grotesk:wght@400;500;600;700&family=Parisienne&display=swap');

@@ -1,0 +1,89 @@
+/* ============================================================
+   Prettily Popped — Color Tokens
+   A celebratory-yet-elegant palette: warm cream paper,
+   dusty-rose primary, deep plum ink, golden-arch accent,
+   plus a set of soft "balloon" decorative hues.
+   ============================================================ */
+
+:root {
+  /* ---- Brand scales ---------------------------------------- */
+
+  /* Rose — the signature dusty rose ("prettily") */
+  --rose-50:  #FBEDEA;
+  --rose-100: #F7DCD9;
+  --rose-200: #EFC5C5;
+  --rose-300: #E4A6AB;
+  --rose-400: #D98C97;
+  --rose-500: #CC7585;  /* primary */
+  --rose-600: #B85D70;  /* primary hover */
+  --rose-700: #9A4458;  /* primary press */
+
+  /* Berry — deeper accent for emphasis & links */
+  --berry-500: #A8425C;
+  --berry-600: #8E3650;
+  --berry-700: #74293F;
+
+  /* Plum — the ink. Warm near-black with a berry cast */
+  --plum-900: #3A2230;  /* strongest text */
+  --plum-800: #4A2C3C;
+  --plum-700: #5C3A4A;  /* body text */
+  --plum-600: #735060;
+
+  /* Gold — the "Golden Arch", celebratory metallic accent */
+  --gold-100: #F6EAD0;
+  --gold-300: #E6CB8E;
+  --gold-400: #D9B45E;
+  --gold-500: #C79A45;  /* accent */
+  --gold-600: #A87E33;
+
+  /* Warm neutrals — paper, mauve-greys */
+  --cream:     #FBF4EF;  /* page background */
+  --shell:     #F5E9E2;  /* soft secondary surface */
+  --white-warm:#FFFCFA;  /* card surface */
+  --sand-100:  #EFE3DC;
+  --sand-200:  #E3D2C9;
+  --mauve-400: #B59AA2;  /* muted text / placeholders */
+  --mauve-500: #97798293; /* (unused alpha guard) */
+  --mauve-grey:#8C737C;   /* muted text */
+
+  /* Soft "balloon" decorative hues — for confetti, tags, charts */
+  --balloon-blush:  #EFC5C5;
+  --balloon-peach:  #F3CBA8;
+  --balloon-gold:   #E6CB8E;
+  --balloon-sage:   #AFC3AC;
+  --balloon-powder: #B7D2DD;
+  --balloon-lilac:  #C9B6D6;
+
+  /* Functional */
+  --success: #6E9A6A;
+  --error:   #C0584F;
+  --info:    #5E8AA6;
+
+  /* ---- Semantic aliases ------------------------------------ */
+  --surface-page:    var(--cream);
+  --surface-card:    var(--white-warm);
+  --surface-soft:    var(--rose-50);
+  --surface-shell:   var(--shell);
+  --surface-ink:     var(--plum-900);   /* dark sections */
+
+  --text-strong:     var(--plum-900);
+  --text-body:       var(--plum-700);
+  --text-muted:      var(--mauve-grey);
+  --text-on-primary: #FFFFFF;
+  --text-on-ink:     #F7E7E2;
+
+  --primary:         var(--rose-500);
+  --primary-hover:   var(--rose-600);
+  --primary-press:   var(--rose-700);
+  --primary-soft:    var(--rose-100);
+
+  --accent:          var(--gold-500);
+  --accent-soft:     var(--gold-100);
+
+  --link:            var(--berry-600);
+  --link-hover:      var(--berry-700);
+
+  --border-soft:     #ECDAD3;
+  --border-strong:   #DCC4BB;
+  --ring:            color-mix(in oklch, var(--rose-500) 45%, transparent);
+}

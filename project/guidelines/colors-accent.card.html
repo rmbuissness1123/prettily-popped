@@ -1,0 +1,40 @@
+<!-- @dsCard group="Colors" viewport="700x172" name="Gold Accent & Balloon Hues" subtitle="Golden-arch accent + soft decorative balloon palette" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 20px 24px; background: var(--surface-card); }
+  .label { font-size: 10.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+           color: var(--text-muted); margin: 0 0 8px; }
+  .row { display: flex; gap: 10px; }
+  .sw { flex: 1; border-radius: var(--radius-md); height: 52px;
+        display: flex; align-items: flex-end; padding: 8px; box-shadow: var(--shadow-xs); }
+  .sw span { font-size: 10px; font-weight: 600; color: var(--plum-900); }
+  .grp { margin-bottom: 12px; }
+</style>
+</head>
+<body>
+  <div class="grp">
+    <p class="label">Gold — golden-arch accent</p>
+    <div class="row">
+      <div class="sw" style="background:var(--gold-100)"><span>gold-100</span></div>
+      <div class="sw" style="background:var(--gold-300)"><span>gold-300</span></div>
+      <div class="sw" style="background:var(--gold-500)"><span>gold-500</span></div>
+      <div class="sw" style="background:var(--gold-600)"><span style="color:#fff">gold-600</span></div>
+    </div>
+  </div>
+  <div class="grp">
+    <p class="label">Balloon decorative hues</p>
+    <div class="row">
+      <div class="sw" style="background:var(--balloon-blush)"><span>blush</span></div>
+      <div class="sw" style="background:var(--balloon-peach)"><span>peach</span></div>
+      <div class="sw" style="background:var(--balloon-gold)"><span>gold</span></div>
+      <div class="sw" style="background:var(--balloon-sage)"><span>sage</span></div>
+      <div class="sw" style="background:var(--balloon-powder)"><span>powder</span></div>
+      <div class="sw" style="background:var(--balloon-lilac)"><span>lilac</span></div>
+    </div>
+  </div>
+</body>
+</html>

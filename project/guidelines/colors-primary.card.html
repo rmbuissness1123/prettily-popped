@@ -1,0 +1,29 @@
+<!-- @dsCard group="Colors" viewport="700x172" name="Primary — Rose & Berry" subtitle="Dusty-rose primary scale with berry for emphasis" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 22px 24px; background: var(--surface-card); }
+  .row { display: flex; gap: 10px; }
+  .sw { flex: 1; border-radius: var(--radius-md); padding: 12px; height: 92px;
+        display: flex; flex-direction: column; justify-content: space-between;
+        box-shadow: var(--shadow-xs); }
+  .sw .name { font-size: 11px; font-weight: 600; letter-spacing: .02em; }
+  .sw .hex { font-size: 10.5px; font-family: var(--font-body); opacity: .85; font-weight: 500; }
+  .lite { color: var(--plum-900); }
+  .dark { color: #fff; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw lite" style="background:var(--rose-100)"><span class="name">rose-100</span><span class="hex">#F7DCD9</span></div>
+    <div class="sw lite" style="background:var(--rose-300)"><span class="name">rose-300</span><span class="hex">#E4A6AB</span></div>
+    <div class="sw dark" style="background:var(--rose-500)"><span class="name">rose-500 · primary</span><span class="hex">#CC7585</span></div>
+    <div class="sw dark" style="background:var(--rose-600)"><span class="name">rose-600 · hover</span><span class="hex">#B85D70</span></div>
+    <div class="sw dark" style="background:var(--berry-600)"><span class="name">berry-600 · link</span><span class="hex">#8E3650</span></div>
+    <div class="sw dark" style="background:var(--berry-700)"><span class="name">berry-700</span><span class="hex">#74293F</span></div>
+  </div>
+</body>
+</html>

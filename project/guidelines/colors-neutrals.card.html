@@ -1,0 +1,30 @@
+<!-- @dsCard group="Colors" viewport="700x172" name="Ink & Warm Neutrals" subtitle="Plum ink for text; cream & shell surfaces" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 22px 24px; background: var(--surface-card); }
+  .row { display: flex; gap: 10px; }
+  .sw { flex: 1; border-radius: var(--radius-md); padding: 12px; height: 92px;
+        display: flex; flex-direction: column; justify-content: space-between;
+        box-shadow: var(--shadow-xs); }
+  .sw .name { font-size: 11px; font-weight: 600; letter-spacing: .02em; }
+  .sw .hex { font-size: 10.5px; opacity: .85; font-weight: 500; }
+  .lite { color: var(--plum-900); }
+  .dark { color: #fff; }
+  .bord { border: 1.5px solid var(--border-soft); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw dark" style="background:var(--plum-900)"><span class="name">plum-900 · text</span><span class="hex">#3A2230</span></div>
+    <div class="sw dark" style="background:var(--plum-700)"><span class="name">plum-700 · body</span><span class="hex">#5C3A4A</span></div>
+    <div class="sw dark" style="background:var(--mauve-grey)"><span class="name">mauve · muted</span><span class="hex">#8C737C</span></div>
+    <div class="sw lite" style="background:var(--shell)"><span class="name">shell</span><span class="hex">#F5E9E2</span></div>
+    <div class="sw lite" style="background:var(--cream)"><span class="name">cream · page</span><span class="hex">#FBF4EF</span></div>
+    <div class="sw lite bord" style="background:var(--white-warm)"><span class="name">warm white · card</span><span class="hex">#FFFCFA</span></div>
+  </div>
+</body>
+</html>

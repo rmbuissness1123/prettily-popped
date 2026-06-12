@@ -1,0 +1,32 @@
+<!-- @dsCard group="Brand" viewport="700x200" name="Wordmark Lockup" subtitle="Type-based wordmark — Bodoni display + Parisienne tagline" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; padding: 0; background: var(--surface-card);
+         display: flex; align-items: center; justify-content: center; height: 200px; }
+  .lockup { text-align: center; }
+  .mark { display: inline-flex; gap: 4px; margin-bottom: 6px; }
+  .dot { width: 13px; height: 16px; border-radius: 50% 50% 50% 50% / 46% 46% 54% 54%; position: relative; }
+  .dot::after { content:""; position:absolute; bottom:-3px; left:50%; transform:translateX(-50%);
+                border-left:3px solid transparent; border-right:3px solid transparent; }
+  .wm { font-family: var(--font-display); font-weight: 600; font-size: 40px; line-height: 1;
+        color: var(--plum-900); letter-spacing: -0.01em; }
+  .wm em { font-style: italic; color: var(--primary); }
+  .tag { font-family: var(--font-script); font-size: 24px; color: var(--gold-600); margin-top: 2px; }
+</style>
+</head>
+<body>
+  <div class="lockup">
+    <div class="mark">
+      <span class="dot" style="background:var(--balloon-blush)"></span>
+      <span class="dot" style="background:var(--rose-500)"></span>
+      <span class="dot" style="background:var(--gold-400)"></span>
+    </div>
+    <div class="wm">Prettily <em>Popped</em></div>
+    <div class="tag">make your event pop</div>
+  </div>
+</body>
+</html>
