@@ -1,0 +1,38 @@
+:root {
+  --font-display: 'Bodoni Moda', 'Didot', Georgia, serif;
+  --font-body:    'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-script:  'Parisienne', 'Snell Roundhand', cursive;
+
+  --text-2xs: 0.6875rem;
+  --text-xs:  0.75rem;
+  --text-sm:  0.875rem;
+  --text-base: 1rem;
+  --text-md:  1.125rem;
+  --text-lg:  1.375rem;
+  --text-xl:  1.75rem;
+  --text-2xl: 2.25rem;
+  --text-3xl: 3rem;
+  --text-4xl: 4rem;
+  --text-5xl: 5.25rem;
+
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semibold: 600;
+  --weight-bold:    700;
+
+  --leading-tight:   1.05;
+  --leading-snug:    1.2;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.65;
+
+  --tracking-tight:   -0.02em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.04em;
+  --tracking-eyebrow: 0.18em;
+
+  --display-font:    var(--font-display);
+  --display-weight:  var(--weight-semibold);
+  --heading-font:    var(--font-display);
+  --body-font:       var(--font-body);
+  --eyebrow-tracking: var(--tracking-eyebrow);
+}
