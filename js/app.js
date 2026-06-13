@@ -162,7 +162,7 @@ function homePage() {
           </p>
           <div style="display:flex;gap:14px;flex-wrap:wrap;">
             ${btnNav('Browse services', 'primary', 'lg', 'services')}
-            ${btnNav('Book a consult', 'secondary', 'lg', 'contact')}
+            ${btnNav('Book now', 'secondary', 'lg', 'contact')}
           </div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:26px;">
             ${heroTags}
@@ -406,7 +406,7 @@ function navHTML() {
       <nav class="site-nav__links">
         ${links}
         <div class="site-nav__cta">
-          ${btnNav('Book a consult', 'primary', 'sm', 'contact')}
+          ${btnNav('Book now', 'primary', 'sm', 'contact')}
         </div>
       </nav>
     </div>

@@ -377,7 +377,7 @@
 .site-nav__wordmark {
   font-family: var(--font-display);
   font-weight: var(--weight-semibold);
-  font-size: 22px;
+  font-size: 30px;
   color: var(--plum-900);
   letter-spacing: -0.01em;
 }
